@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weeklies</title>
+</head>
+<body>
+    <a href="index.html">HOME</a>
+    <h1 style="text-align:center;">Weekly A</h1>
+    <h2 style="text-align:center;">Anna Lisa, 01/21/23</h2>
+    <p> This week, I learned the basics of <b>HTML</b> and <b>CSS</b> and figured out the beginnings of how to make a website. My goal for the coming week is to learn how to include buttons next to each other and other things to bring me closer to my goal of making an actual website. <br> I'm surprised how easy it has been to learn this language. I would love to use the skills I've gained to make a webpage to showcase my art. One thing I've learned with coding is that learning to Google my issues will save me so much pain. I'm so glad to have learned <a href="https://www.w3schools.com/"> about this site </a>, which will surely save me so much time in streamlining my site development.</p>
+    <p>Click below for a fun thing I learned from this week:</p> 
+    <button onclick="showContent()">Show what I liked learning from this week</button>
+    <template>
+        <h5>I was surprised by the amount of artifacts from the yore of the Internet; the distinctions between italics being for emphasis versus for a ship name, etc. was entertaining.</h5>
+    </template>
+    <script>
+        function showContent()  {
+            var temp = document.getElementsByTagName("template")[0];
+            var clon = temp.content.cloneNode(true);
+            document.body.appendChild(clon);
+        }
+    </script>
+    <p style="color:crimson;">This won't work, so I'll just write it here:<br><em>I was surprised by the amount of artifacts from the yore of the Internet; the distinctions between italics being for emphasis versus for a ship name, etc. was entertaining.</em></p>
+    <p>Regarding our class discussion on Friday, I was really taken with the reading "How to Internet." The author, Jenny Odell, gave me a nostalgia for an internet that I only vaguely remember. I remember when my brother showed me the video below:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KmtzQCSh6xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p><small>(I'd also like to figure out how to make that embedded video work!^)</p></small>
+    <p>It <i>does</i> make me kind of sad, because the internet I really grew up to know has always been monetized -- it feels almost silly to think that it wouldn't. But it's sweet to think that people uploaded things just for the sake of saying what they wanted to say, helping people, making them laugh.</p>
+    <p>Odell mentions "hole in space", and I am instantly reminded of the story about the first moving picture. Apparently, upon seeing the train moving "toward the screen," members of the audience screamed. They couldn't comprehend that the train was really just an image. In a similar way, the watchers really couldn't believe the people weren't actors.</p>
+</body>
+</html>
