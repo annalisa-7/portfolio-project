@@ -1,0 +1,39 @@
+.background {
+    background-color: rgb(163,130,128);
+}
+
+#eye1
+    {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 30px;
+        left: 50px;
+    }
+
+#eye2
+    {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 30px;
+        left: 550px;
+    }
+
+#nose
+    {
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        top: 250px;
+        left: 400px;        
+    }
+
+#lips
+    {
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        top: 470px;
+        left: 300px;
+    }
