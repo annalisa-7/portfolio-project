@@ -8,7 +8,7 @@
         width: 50%;
         height: 50%;
         top: 30px;
-        left: 50px;
+        left: 200px;
     }
 
 #eye2
@@ -16,24 +16,24 @@
         position: absolute;
         width: 50%;
         height: 50%;
-        top: 30px;
-        left: 550px;
+        top: 300px;
+        left: 200px;
     }
 
 #nose
     {
         position: absolute;
-        width: 70%;
-        height: 70%;
-        top: 250px;
-        left: 400px;        
+        width: 50%;
+        height: 50%;
+        top: 150px;
+        left: 600px;        
     }
 
 #lips
     {
         position: absolute;
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
         top: 470px;
         left: 300px;
     }
