@@ -5,26 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/face.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <title>home</title>
 </head>
+<script>
+    $(document).ready(function(){
+        $(".eye1").hover(function(){
+            $(".closed1").attr('src', '/face/eyeopen1.png');
+        }, function(){
+            $(".closed1").attr('src', '/face/eye.png');
+        })
+
+        $(".eye2").hover(function(){
+            $(".closed2").attr('src', '/face/eyeopen1.png');
+        }, function(){
+            $(".closed2").attr('src', '/face/eye-2.png');
+        })
+
+        $(".lips").hover(function(){
+            $(".mouthclosed").attr('src', '/face/mouth.png');
+        }, function(){
+            $(".mouthclosed").attr('src', '/face/lips.png');
+        })
+    })
+
+</script>
 <body class="background">
-    <div id="eye1">
+    <div class="eye1">
         <img src="/face/eye.png"
         height="30%"
-        width="30%">
+        width="30%"
+        class="closed1">
     </div>
-    <div id="eye2">
+    <a href="pots.html" class="potslink" style="font-size:40px">pots</a>
+    <div class="eye2">
         <img src="/face/eye-2.png"
         height="30%"
-        width="30%">
+        width="30%"
+        class="closed2">
     </div>
-    <div id="nose">
+    <a href="pots.html" class="drawingslink" style="font-size:30px">drawings</a>
+    <div class="nose">
         <img src="/face/nose.png"
         height="176"
         width="209">
     </div>
-    <div id="lips">
-        <img src="/face/lips.png">
+    <div class="lips">
+        <img src="/face/lips.png"
+        class="mouthclosed">
     </div>
+    <a href="pots.html" class="intartlink" style="font-size:60px">internet art</a>
 </body>
 </html>
