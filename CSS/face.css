@@ -15,8 +15,8 @@
 .eye1
     {
         position: absolute;
-        width: 278.6px;
-        height: 157.5px;
+        width: 199px;
+        height: 112.5px;
         top: 30px;
         left: 200px;
     }
@@ -39,10 +39,10 @@
 .eye2
     {
         position: absolute;
-        width: 50%;
-        height: 50%;
-        top: 200px;
-        left: 800px;
+        width: 199px;
+        height: 112.5px;
+        right: 440px;
+        bottom: 550px;
     }
 
     .drawingslink {
@@ -52,8 +52,8 @@
     .eye2:hover + .drawingslink {
         display: inline;
         position: absolute;
-        top: 250px;
-        left: 840px;
+        right: 480px;
+        bottom: 580px;
         font-family: "c_cemstraregular", Verdana, Tahoma;
         text-decoration: none;
         color: black;
