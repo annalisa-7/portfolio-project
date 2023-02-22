@@ -11,44 +11,73 @@
 .header {
     font-family: "c_cemstraregular", Verdana, Tahoma;
     font-size: xx-large;
+    position: absolute;
+    left: 200px;
 }
 
 .background {
     background-color: rgb(163,130,128);
 }
 
-.background1 {
+#background1 {
     position: absolute;
     top: 200px;
     left: 500px;
     z-index: 1;
 }
 
-.pot1 {
+#pot1 {
     position: absolute;
     top: 200px;
     left: 500px;
     z-index: 2;
 }
 
-.pot1:hover {
+.pot:hover {
     transform: translate(-10px)
 }
 
-.background2 {
+#background2 {
     position: absolute;
     top: 100px;
     left: 20px;
     z-index: 1;
 }
 
-.pot2 {
+#pot2 {
     position: absolute;
     top: 100px;
     left: 20px;
     z-index: 2;
 }
 
-.pot2:hover {
-    transform: translate(-10px)
+#background3 {
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    z-index: 1;
+}
+
+#pot3 {
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    z-index: 2;
+}
+
+#back {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#back:hover {
+    font-style: italic;
+}
+
+#back:visited {
+    color: black;
 }
