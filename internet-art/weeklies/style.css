@@ -1,0 +1,39 @@
+a {
+    font-family: cursive;
+    background-color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:blue
+}
+
+a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+dl {
+    color: green;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: bisque;
+}
+
+.shadow {
+    text-shadow: 2px 2px rgb(208, 167, 167);
+}
+.background {
+    background-image: url("/images/feelsoclose.jpeg");
+}
+.background2 {
+    background: content-box radial-gradient(crimson, skyblue);
+}

@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'c_cemstraregular';
+    src: url('/cemstra-51xvv-webfont.woff2') format('woff2'),
+         url('/Cemstra-51xvv.otf') format('opentype'),
+         url('/cCemstra.ttf') format('truetype'),
+         url('/cemstra-51xvv-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "c_cemstraregular";
+    font-size: xx-large;
+}
+
 .background {
     background-color: rgb(163,130,128);
 }
@@ -7,7 +22,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
-    background-color: rgb(133,149,165);
+    background-color: rgb(163,130,128);
+    gap: 1cm;
 }
 
 .flex-container > div {
@@ -26,4 +42,21 @@
 #hands {
     width: 400px;
     transform: rotate(270deg)
+}
+
+#back {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#back:hover {
+    font-style: italic;
+}
+
+#back:visited {
+    color: black;
 }
