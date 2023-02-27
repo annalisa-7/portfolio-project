@@ -8,9 +8,12 @@
     font-style: normal;
 }
 
-h1 {
+.header {
     font-family: "c_cemstraregular";
     font-size: xx-large;
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
 
 .background {
@@ -27,26 +30,22 @@ h1 {
 }
 
 .flex-container > div {
-    background-color: lightgray;
+    background-color: rgb(187,204,222);
     text-align: center;
     margin: 10px;
     padding: 20px;
     line-height: 75px;
     font-size: 30px;
-}
-
-#eyes {
     width: 400px;
 }
 
 #hands {
-    width: 400px;
     transform: rotate(270deg)
 }
 
 #back {
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
     left: 20px;
     font-family: "c_cemstraregular";
     font-size: 20px;
@@ -59,4 +58,22 @@ h1 {
 
 #back:visited {
     color: black;
+}
+
+#contact {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(140, 26, 26);
+}
+
+#contact:hover {
+    font-style: italic;
+}
+
+#contact:visited {
+    color: rgb(140,26,26);
 }

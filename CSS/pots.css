@@ -12,7 +12,6 @@
     font-family: "c_cemstraregular", Verdana, Tahoma;
     font-size: xx-large;
     position: absolute;
-    left: 200px;
 }
 
 .background {
@@ -21,15 +20,16 @@
 
 #background1 {
     position: absolute;
-    top: 200px;
-    left: 500px;
+    top: 100px;
+    left: 1500px;
     z-index: 1;
+    padding-right: 50px;
 }
 
 #pot1 {
     position: absolute;
-    top: 200px;
-    left: 500px;
+    top: 100px;
+    left: 1500px;
     z-index: 2;
 }
 
@@ -66,7 +66,7 @@
 }
 
 #back {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 20px;
     font-family: "c_cemstraregular";
@@ -80,4 +80,80 @@
 
 #back:visited {
     color: black;
+}
+
+#background4 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 1;
+}
+
+#pot4 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 2;
+}
+
+#contact {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(140, 26, 26);
+}
+
+#contact:hover {
+    font-style: italic;
+}
+
+#contact:visited {
+    color: rgb(140,26,26);
+}
+
+#tracing1 {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+}
+
+#tracing2 {
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+
+#tracing3 {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+
+#tracing4 {
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    rotate: 90deg
+}
+
+#tracing5 {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+
+#tracing6 {
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    rotate: 180deg;
+}
+
+#tracing7 {
+    position: absolute;
+    left: 1400px;
+    top: 80px;
 }

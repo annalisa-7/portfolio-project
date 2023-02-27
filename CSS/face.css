@@ -16,47 +16,16 @@
     {
         position: absolute;
         width: 199px;
-        height: 112.5px;
         top: 30px;
         left: 200px;
     }
-
-.potslink {
-    display: none;
-}
-
-.eye1:hover + .potslink {
-    display: inline;
-    position: absolute;
-    top: 80px;
-    left: 260px;
-    font-family: "c_cemstraregular", Verdana, Tahoma;
-    text-decoration: none;
-    color: black;
-
-}
 
 .eye2
     {
         position: absolute;
         width: 199px;
-        height: 112.5px;
         right: 440px;
         bottom: 550px;
-    }
-
-    .drawingslink {
-        display: none;
-    }
-    
-    .eye2:hover + .drawingslink {
-        display: inline;
-        position: absolute;
-        right: 480px;
-        bottom: 580px;
-        font-family: "c_cemstraregular", Verdana, Tahoma;
-        text-decoration: none;
-        color: black;
     }
 
 .nose

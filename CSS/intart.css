@@ -8,6 +8,14 @@
     font-style: normal;
 }
 
+.header {
+    font-family: "c_cemstraregular";
+    font-size: xx-large;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
 .background {
     background-color: rgb(163,130,128);
 }
@@ -37,26 +45,26 @@ a:visited {
 
 #weeklyA {
     position: absolute;
-    top: 183px;
+    top: 263px;
     left: 300px;
 }
 
 #weeklyB {
     position: absolute;
-    top: 90px;
+    top: 170px;
     left: 590px;
     writing-mode:vertical-rl
 }
 
 #html {
     position: absolute;
-    top: 280px;
+    top: 360px;
     left: 620px;
 }
 
 #weeklyC {
     position: absolute;
-    top: 410px;
+    top: 490px;
     left: 800px;
 }
 
@@ -70,6 +78,41 @@ a:visited {
 
 #weeklyD {
     position: absolute;
-    top: 580px;
+    top: 660px;
     left: 640px;
+}
+
+#back {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#back:hover {
+    font-style: italic;
+}
+
+#back:visited {
+    color: black;
+}
+
+#contact {
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(140, 26, 26);
+}
+
+#contact:hover {
+    font-style: italic;
+}
+
+#contact:visited {
+    color: rgb(140,26,26);
 }
