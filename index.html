@@ -11,19 +11,19 @@
 <script>
     $(document).ready(function(){
         $(".eye1").hover(function(){
-            $(".closed1").attr('src', '/face/eyeopen1.png');
+            $(".closed1").attr('src', '/face2/eyeopen1.png');
         }, function(){
             $(".closed1").attr('src', '/face/eye.png');
         })
 
         $(".eye2").hover(function(){
-            $(".closed2").attr('src', '/face/eyeopen1.png');
+            $(".closed2").attr('src', '/face2/eyeopen2.png');
         }, function(){
             $(".closed2").attr('src', '/face/eye-2.png');
         })
 
         $(".lips").hover(function(){
-            $(".mouthclosed").attr('src', '/face/mouth.png');
+            $(".mouthclosed").attr('src', '/face2/mouth.png');
         }, function(){
             $(".mouthclosed").attr('src', '/face/lips.png');
         })
@@ -31,29 +31,26 @@
 
 </script>
 <body class="background">
-    <div class="eye1">
+    <a href="pots.html" class="eye1">
         <img src="/face/eye.png"
         height="100%"
         width="100%"
         class="closed1">
-    </div>
-    <a href="pots.html" class="potslink" style="font-size:40px">pots</a>
-    <div class="eye2">
+    </a>
+    <a href="drawings.html" class="eye2">
         <img src="/face/eye-2.png"
         height="100%"
         width="100%"
         class="closed2">
-    </div>
-    <a href="drawings.html" class="drawingslink" style="font-size:30px">drawings</a>
+    </a>
     <div class="nose">
         <img src="/face/nose.png"
         height="176"
         width="209">
     </div>
-    <div class="lips">
+    <a href="intart.html" class="lips">
         <img src="/face/lips.png"
         class="mouthclosed">
-    </div>
-    <a href="intart.html" class="intartlink" style="font-size:60px">internet art</a>
+    </a>
 </body>
 </html>
