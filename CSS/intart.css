@@ -82,6 +82,12 @@ a:visited {
     left: 640px;
 }
 
+#weeklyE {
+    position: absolute;
+    top: 942px;
+    left: 350px;
+}
+
 #back {
     position: fixed;
     bottom: 0;
