@@ -32,7 +32,8 @@ h2 {
     text-shadow: 2px 2px rgb(208, 167, 167);
 }
 .background {
-    background-image: url("/images/feelsoclose.jpeg");
+    background-image: url("./images/feelsoclose.jpeg");
+
 }
 .background2 {
     background: content-box radial-gradient(crimson, skyblue);

@@ -88,6 +88,14 @@ a:visited {
     left: 350px;
 }
 
+#drawcode {
+    position: absolute;
+    top: 1200px;
+    left: 800px;
+    /* writing-mode: vertical-rl; */
+    color: rgb(111, 32, 32);
+}
+
 #back {
     position: fixed;
     bottom: 0;
