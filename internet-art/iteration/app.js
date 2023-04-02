@@ -6,7 +6,7 @@ function setup() {
     myCanvas = createCanvas(windowWidth,windowHeight);
     myCanvas.parent('myContainer');
     // background(0);
-    drawClock(300,300,300,50,200,200);
+    drawClock(random(100,windowWidth),random(100,windowHeight),random(100,300),random(250),random(250),random(250));
 }
 
 function drawClock(x,y,size,r,g,b){
@@ -17,10 +17,10 @@ function drawClock(x,y,size,r,g,b){
     fill(0.5*r,0.5*g,0.5*b);
     textSize(0.125*size);
     for (let t = 1; t < 13; t++) {
-        text(t,0.35*size*cos([TWO_PI*t/12]-HALF_PI)-13,0.35*size*sin(TWO_PI*t/12-HALF_PI)+15);
+        text(t,0.35*size*cos([TWO_PI*t/12]-HALF_PI),0.35*size*sin(TWO_PI*t/12-HALF_PI));
     }
 
-    // for (let xoff = 1; xoff < Infinity; xoff++) {
+    // for (let xoff = 1; xoff < 50; xoff++) {
     //     var n = TWO_PI*noise(xoff);
     //     line(0,0,0.35*size*cos(n),0.35*size*sin(n));
     //     // xoff += 0.01;
