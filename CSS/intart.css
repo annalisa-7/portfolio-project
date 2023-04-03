@@ -96,6 +96,13 @@ a:visited {
     color: rgb(111, 32, 32);
 }
 
+#iteration {
+    position: absolute;
+    top: 751px;
+    left: 980px;
+    color: rgb(111, 32, 32);
+}
+
 #back {
     position: fixed;
     bottom: 0;
