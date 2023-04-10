@@ -103,6 +103,25 @@ a:visited {
     color: rgb(111, 32, 32);
 }
 
+#weeklyF {
+    position: absolute;
+    top: 600px;
+    left: 1260px;
+    writing-mode: vertical-rl;
+}
+
+#weeklyG {
+    position: absolute;
+    top: 963px;
+    left: 780px;
+}
+
+#weeklyH {
+    position: absolute;
+    top: 860px;
+    left: 860px;
+}
+
 #back {
     position: fixed;
     bottom: 0;
