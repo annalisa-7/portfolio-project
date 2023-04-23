@@ -136,6 +136,13 @@ a:visited {
     color: rgb(111, 32, 32);
 }
 
+#weeklyJ {
+    position: absolute;
+    top: 1060px;
+    right: 270px;
+    /* writing-mode: vertical-rl; */
+}
+
 #back {
     position: fixed;
     bottom: 0;

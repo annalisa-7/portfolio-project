@@ -53,11 +53,11 @@ function draw() {
       });
 
       // rectangles where images are
-      fill(163,130,128);
-      rect(1500,100,300,463.65);
-      rect(20,100,300,400);
-      rect(1000,50,300,614.75);
-      rect(500,200,300,400);
+      // fill(163,130,128);
+      // rect(1500,100,300,463.65);
+      // rect(20,100,300,400);
+      // rect(1000,50,300,614.75);
+      // rect(500,200,300,400);
 }
 
 // adapted from: https://p5js.org/examples/motion-bouncy-bubbles.html
