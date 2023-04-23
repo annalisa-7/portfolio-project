@@ -7,6 +7,7 @@
     <title>intentions</title>
 </head>
 <body>
+    <h1>Documentation -- click <a href="sheet.html">here</a> to go the actual assignment</h1>
     When considering which exercise to expand upon, I think I would 
     like to make a more dynamic iteration image. One idea I saw online 
     one time was to make a series of dots -- some that attract one another 
@@ -31,5 +32,28 @@
     making several iterations of circle with different colors and sizes that 
     interact with each other and the HTML elements in simple ways. I might 
     have them attract to their nearest element or bounce off the elements.
+    <br><br>
+    <b>Final conclusion:</b> Now that I have finished my project, I spent a lot of time on 
+    things I did not expect. For one, I found that, when making my circles bounce 
+    off of the images, to look realistic, I would need to have the x-velocity be multiplied by -1 when 
+    the ball hit a side edge of the image and the y-velocity be multiplied by negative 1 when the ball hit the 
+    top edge of the image. However, I could not figure out how to encode whether the circle 
+    was hitting from the top edge or side edge of the image. So I had to make it so that 
+    when the circle entered the domain of the image at all, both the y-velocity and the 
+    x-velocity were multiplied by negative 0.8.
+    <br>
+    Another obstacle I had to deal with is the creation of balls inside of or on the edge of 
+    the images. To deal with these unwanted circles, I created an array of spaces in between the images that the 
+    circles could be originally drawn inside of. While this does kind of create unwanted and 
+    unnatural order in the original drawing, that quickly dissolves as the circles move.
+    <br>
+    Despite all of these worked out kinks, there were some issues that I have had trouble resolving. 
+    For one, the balls would often stop when they hit the images, especially if they were slow-moving. 
+    I think this might be because I had it set up that the circles go to 70% their original speed when they hit the side of the image. 
+    This isn't really ideal, because I was aiming for continual movement in my image, but I actually 
+    think it looks alright when the circles stop on the edge of the image. It creates a kind of bubbly 
+    frame. The reason I had the speed go to 70% of its original speed when it hit the image is 
+    because the balls would bounce too quickly back and forth when their speed would only be 
+    reversed upon hitting the image.
 </body>
 </html>

@@ -128,6 +128,14 @@ a:visited {
     left: 250px;
 }
 
+#final {
+    position: absolute;
+    writing-mode: vertical-rl;
+    top: 250px;
+    left: 910px;
+    color: rgb(111, 32, 32);
+}
+
 #back {
     position: fixed;
     bottom: 0;
