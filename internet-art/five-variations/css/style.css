@@ -1,0 +1,114 @@
+h2 {
+    color: rgb(108, 11, 11);
+}
+
+.tab {
+    margin-left: 40px;
+}
+
+.box {
+    border: 10px double yellow;
+}
+.box2 {
+    border: 3px solid black;
+    padding: 10px;
+    padding-top: 10 px;
+    margin: 20px;
+}
+.tab2 {
+    margin-left: 400px;
+}
+.relative {
+    position: relative;
+    width:200px;
+    height:200px;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid blue;
+    background-color: rgb(165, 165, 233);
+}
+.absolute {
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+.absolute2 {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    padding: 5px;
+    border: 2px solid red;
+}
+.absolute3 {
+    position: absolute;
+    top: 650px;
+    left: 90px;
+    padding: 5px;
+    border: 2px solid red;
+    background-color: coral;
+}
+div {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    rotate: 30deg;
+}
+.rotate {
+    position: absolute;
+    transform: rotate(50deg);
+    background-color: black;
+    color: red;
+}
+.bone {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #FF0000;
+}
+a:hover {
+    background-color: cornflowerblue;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+.background {
+    background-color: #2626b6;
+    opacity: 0.7;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+    color:rgb(232, 226, 226);
+    background-position: top left;
+    background-blend-mode:difference;
+}
+.animation {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%
+    }
+}
+.animation2 {
+    animation-duration: 3s;
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+}
+@keyframes animation2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
