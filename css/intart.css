@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'c_cemstraregular';
+    src: url('/cemstra-51xvv-webfont.woff2') format('woff2'),
+         url('/Cemstra-51xvv.otf') format('opentype'),
+         url('/cCemstra.ttf') format('truetype'),
+         url('/cemstra-51xvv-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    font-family: "c_cemstraregular";
+    font-size: xx-large;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.background {
+    background-color: rgb(163,130,128);
+}
+
+.weekly {
+    font-family: 'c_cemstraregular';
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+}
+
+.exercise {
+    font-family: 'c_cemstraregular';
+    font-size: x-large;
+    color: rgb(111, 32, 32);
+    text-decoration: none;  
+}
+
+a:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+a:visited {
+    color: black;
+}
+
+#weeklyA {
+    position: absolute;
+    top: 263px;
+    left: 300px;
+}
+
+#weeklyB {
+    position: absolute;
+    top: 170px;
+    left: 590px;
+    writing-mode:vertical-rl
+}
+
+#html {
+    position: absolute;
+    top: 360px;
+    left: 620px;
+}
+
+#weeklyC {
+    position: absolute;
+    top: 490px;
+    left: 800px;
+}
+
+#fivevar {
+    position: absolute;
+    top: 580px;
+    left: 225px;
+    writing-mode: vertical-lr;
+    color: rgb(111, 32, 32);
+}
+
+#weeklyD {
+    position: absolute;
+    top: 660px;
+    left: 640px;
+}
+
+#weeklyE {
+    position: absolute;
+    top: 942px;
+    left: 350px;
+}
+
+#drawcode {
+    position: absolute;
+    top: 1200px;
+    left: 800px;
+    /* writing-mode: vertical-rl; */
+    color: rgb(111, 32, 32);
+}
+
+#iteration {
+    position: absolute;
+    top: 751px;
+    left: 980px;
+    color: rgb(111, 32, 32);
+}
+
+#weeklyF {
+    position: absolute;
+    top: 600px;
+    left: 1260px;
+    writing-mode: vertical-rl;
+}
+
+#weeklyG {
+    position: absolute;
+    top: 963px;
+    left: 780px;
+}
+
+#weeklyH {
+    position: absolute;
+    top: 860px;
+    left: 860px;
+}
+
+#weeklyI {
+    position: absolute;
+    top: 490px;
+    left: 250px;
+}
+
+#final {
+    position: absolute;
+    writing-mode: vertical-rl;
+    top: 250px;
+    left: 910px;
+    color: rgb(111, 32, 32);
+}
+
+#weeklyJ {
+    position: absolute;
+    top: 1060px;
+    right: 270px;
+    /* writing-mode: vertical-rl; */
+}
+
+#back {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#back:hover {
+    font-style: italic;
+}
+
+#back:visited {
+    color: black;
+}
+
+#contact {
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    font-family: "c_cemstraregular";
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(140, 26, 26);
+}
+
+#contact:hover {
+    font-style: italic;
+}
+
+#contact:visited {
+    color: rgb(140,26,26);
+}
