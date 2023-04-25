@@ -143,6 +143,13 @@ a:visited {
     /* writing-mode: vertical-rl; */
 }
 
+#weeklyK {
+    position: absolute;
+    top: 1100px;
+    left: 648px;
+    writing-mode: vertical-rl;
+}
+
 #back {
     position: fixed;
     bottom: 0;
